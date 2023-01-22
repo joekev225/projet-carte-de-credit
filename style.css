@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+
+   body{
+    font-family: 'Space Grotesk', sans-serif;
+     height: 100vh;
+    }
+
+
+     .page-complete{
+       display: flex;
+      }
+
+       .page-complete__gauche-violet{
+        width: 35%;
+         }
+        .image-background{
+          width: 100%;
+          }
+        .carte-front{position: relative;
+            bottom: 900px;
+            left: 200px;
+            z-index: 2;}
+        .carte-back{position: relative;
+            bottom: 990px;
+            left: 320px;
+            z-index: 2;}
+       
+       .page-complete__droite-blanc{
+        align-items: center; justify-content: center;
+         display: flex; 
+         width: 65%; flex-direction: column;} 
+         .formulaires{
+          width: 400px;
+          margin-top: -870px;
+           justify-content: space-around;height: 20%;
+           display: flex; flex-direction: column;margin-left: 20%;
+          }    
+          .form{display: flex; flex-direction: column; 
+          }
+          input{border-radius: 5px; height: 40px; opacity:40% ;}
+         .date-cvc{display: flex; } 
+         .small-form{ display: flex; width: 42%;}
+         .small-form input{width: 70px}
+
+         button{width: 100%; height: 40px; background-color: hsl(278, 68%, 11%); 
+         color: white;}
+
+         .numeros{
+           position:relative;
+           z-index: 4;
+           bottom: 1080px;
+           left:200px ;
+           display: flex; 
+           justify-content: space-around;
+           width:450px
+          }
+          .numeros p{color: white; 
+            font-size: 18px
+          }
+          .cercle-blanc{
+            width: 50px;
+             background-color: white;
+             position:relative; z-index: 4;
+             height: 50px; border-radius: 100%;
+             bottom: 1130px; left:210px; 
+             }
+          .cercle-violet{
+            width: 27px; 
+            border: 1px solid wheat;
+            border-radius: 100%;
+            position:relative;
+            z-index: 4;
+            height: 27px; 
+            border-radius: 100%;
+            bottom: 1170px;
+             left:280px;
+            }
+          
+          .card-foot{
+            display:flex;
+             width: 400px; 
+             display: flex;
+             justify-content: space-between;
+            position:relative;
+             z-index: 4; 
+            bottom: 1050px; 
+            left:220px; color: white;
+             font-size: 12px;
+            }
+
+
+           
+
+    
+  
